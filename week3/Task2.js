@@ -17,7 +17,7 @@ for (let index in datesDays) {
 
 //Task 2.4
 let daysOfTheWeek = ['неделя', 'понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота'];
-let formattedDates = []
+let formattedDates = [];
 for (let index in dates) {
     formattedDates[index] = 'Дата: ' + datesString[index] + ', час ' + dates[index].toLocaleTimeString({}, { hour12: false }) +
                             ', ' + daysOfTheWeek[datesDays[index][1]] + ', ' + datesDays[index][0] + 'дни';
