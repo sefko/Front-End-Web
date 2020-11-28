@@ -1,0 +1,253 @@
+@media only screen and (max-width: 890px) {
+    main {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #side {
+        max-width: none !important;
+        width: 100% !important;
+    }
+
+    #feed {
+        width: 100% !important;
+    }
+
+    .show-mobile {
+        display: block !important;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    #search_bar > input {
+        max-width: 9rem;
+    }
+} 
+
+.show-mobile {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.grey {
+    color: grey;
+}
+
+.btn {
+    background: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+input, button {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    background-image: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+}
+
+header {
+    width: 100%;
+    padding: 0 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header > h1 {
+    margin: 0.15rem;
+    font-size: 2.75rem;
+    font-weight: normal;
+}
+
+#search_bar {
+    align-items: center;
+    height: 2.25rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid lightgrey;
+    border-radius: 1.75rem;
+    background-color: #f6f7fd;
+}
+
+#search_bar > input {
+    width: 12.5rem;
+    margin-right: 0.25rem;
+    padding-left: 0.25rem;
+    border: 0;
+    color: #616d6c;
+    background-color: transparent;
+} 
+
+main {
+    align-items: flex-start;
+    margin-top: 0.5rem;
+}
+
+#side {
+    max-width: 18rem;
+    width: 18rem;
+    margin-right: 0.5rem;
+    font-size: 1.15rem;
+    background-color: white;
+}
+
+#side > .profile {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1.30rem;
+}
+
+#side > .profile > img {
+    height: 5.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5rem;
+}
+
+#side > .posts_reactions {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background-color: #f6f7fd;
+}
+
+#side > .posts_reactions .text {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #767881;
+}
+
+#side > .posts_reactions .number {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #54bdd6;
+}
+
+#side > .posts_reactions .posts {
+    margin-right: 1rem;
+}
+
+#log_out {
+    height: 2.25rem;
+    color: #54bdd6;
+    font-weight: bold;
+    border: 2px solid #54bdd6;
+    background-color: transparent;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+
+#feed {
+    max-width: 55rem;
+    width: 36.5rem;
+    background-color: white;
+}
+
+#feed > .say_something {
+    height: 3rem;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid lightgrey;
+    background-color: #f4fcfd;
+}
+
+#feed > .say_something > div {
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    padding: 0.2rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 3rem;
+    color:#54bdd6;
+    background-color: white;
+}
+
+#feed > .say_something > div > input {
+    width: 100%;
+    border: 0;
+    font-size: 0.85rem;
+    color: #54bdd6;
+    background-color: transparent;
+} 
+
+#feed > .say_something > div > input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #54bdd6;
+}
+
+#feed > .say_something > img {
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+
+#feed > .say_something .btn {
+    color: #54bdd6;
+}
+
+#feed > .post {
+    padding: 1rem 1rem 1rem 1.75rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+#feed > .post > img {
+    height: 2.5rem;
+    margin-right: 0.75rem;
+    border-radius: 2.5rem;
+}
+
+#feed > .post > .post_text {
+    width: 100%;
+}
+
+#feed > .post > .btn {
+    align-self: flex-start;
+}
+
+#feed > .post .name {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+#feed > .post .time_posted {
+    font-size: 0.875rem;
+}
+
+#feed > .post > .post_text > p {
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+#feed > .post .reactions > div {
+    margin-right: 3rem;
+}
+
+#feed > .post .reactions > div > span {
+    font-size: 0.85rem;
+}

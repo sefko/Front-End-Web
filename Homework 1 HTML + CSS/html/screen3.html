@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home / Flutter</title>
+        <link rel="stylesheet" href="../css/screen3.css">
+        <link rel="stylesheet" href="../css/fontawesome-free-5.15.1-web/css/all.css">
+    </head>
+    <body class="flex-col">
+        <header class="flex">
+            <h1>Flutter</h1>
+            <div id="search_bar" class="flex">
+                <input type="text" placeholder="Search">
+                <button class="btn fas fa-search fa-sm"></button>
+            </div>
+        </header>
+        <main class="flex">
+            <div id="side" class="flex-col">
+                <div class="profile flex-col">
+                    <img src="../img/person.png">
+                    <span class="show-mobile">test</span>
+                    <span class="hide-mobile">Martin Hristov</span>
+                </div>
+                <div class="posts_reactions flex">
+                    <div class="flex">
+                        <div class="posts">
+                            <div class="text">Posts</div>
+                            <div class="number">1</div>
+                        </div>
+                        <div class="reactions">
+                            <div class="text">Reactions</div>
+                            <div class="number show-mobile">8</div>
+                            <div class="number hide-mobile">7</div>
+                        </div>
+                    </div>
+                    <button id="log_out">Log Out</button>
+                </div>
+            </div>
+            <div id="feed" class="flex-col">
+                <div class="say_something flex">
+                    <img src="../img/person.png">
+                    <div class="flex">
+                        <input type="text" placeholder="Say something">
+                        <button class="btn far fa-comment-alt fa-sm"></button>
+                    </div>
+                </div>
+                <div class="post flex">
+                    <img src="../img/person.png">
+                    <div class="post_text flex-col">
+                        <div class="flex">
+                            <span class="name show-mobile">test</span>
+                            <span class="name hide-mobile">Ivan Ivanov</span>
+                            <span class="time_posted hide-mobile grey">• 0 seconds ago</span>
+                            <span class="time_posted show-mobile grey">• 3 minutes ago</span>
+                        </div>
+                        <p>Ex eu non voluptate esse aliqua velit. Nulla duis ipsum incididunt culpa laborum commodo consequat in. Nostrud elit dolor laboris tempor officia duis exercitation anim voluptate ut enim officia proident. Labore elit esse velit quis et voluptate officia laboris cillum dolor pariatur excepteur esse laborum. Veniam adipisicing quis nisi cillum voluptate veniam nulla sunt.</p>
+                        <div class="reactions flex">
+                            <div>
+                                <button class="btn far fa-thumbs-up fa-sm"></button>
+                                <span>5</span>
+                            </div>
+                            <div>
+                                <button class="btn far fa-thumbs-down fa-sm"></button>
+                                <span>3</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn fas fa-times grey fa-sm"></button>
+                </div>
+                <div class="post flex">
+                    <img src="../img/person.png">
+                    <div class="post_text flex-col">
+                        <div class="flex">
+                            <span class="name">Martin</span>
+                            <span class="time_posted grey">• Last month</span>
+                        </div>
+                        <p class="show-mobile">fasdf</p>
+                        <p class="hide-mobile">Mollit consequat ipsum sit laboris incididunt sunt deserunt velit elit eu proident.</p>
+                        <div class="reactions flex">
+                            <div>
+                                <button class="btn far fa-thumbs-up fa-sm"></button>
+                                <span>3</span>
+                            </div>
+                            <div>
+                                <button class="btn far fa-thumbs-down fa-sm"></button>
+                                <span>0</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn fas fa-times grey fa-sm"></button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
